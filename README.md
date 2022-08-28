@@ -15,7 +15,7 @@ put `RegisterPhantumResource('phant_scriptName');`
 
 save file
 
-run `restart phantum`
+run `start phantum`
 
 `phant_scriptName` is now enabled
 
