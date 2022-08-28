@@ -3,14 +3,20 @@
 ## INSTALLING
 
 put `phantum` folder to `resources` folder
+
 put `ensure phantum` in your server config file
+
 
 ## USE WITH PHANTUM SCRIPTS
 
 open `.\phantum\resources.lua`
+
 put `RegisterPhantumResource('phant_scriptName');`
+
 save file
+
 run `restart phantum`
+
 `phant_scriptName` is now enabled
 
 ## API
