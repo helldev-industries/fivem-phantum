@@ -1,0 +1,5 @@
+PhantumServerConfig = {
+    Webhooks = {
+        Cheaters = 'nigger'
+    }
+}
