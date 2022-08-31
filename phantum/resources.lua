@@ -1,4 +1,7 @@
 -- YOUR RESOURCES CONFIG
 
-RegisterPhantumResource('phant_backups');
-RegisterPhantumResource('phant_holdup');
+CreateThread(function()
+	Citizen.Wait(1 * 1000);
+	RegisterPhantumResource('phant_backups');
+	RegisterPhantumResource('phant_holdup');
+end)
