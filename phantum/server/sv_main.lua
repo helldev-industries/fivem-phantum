@@ -11,6 +11,7 @@ PhantumUtils.Thread = function(fn)
 end
 
 PhantumUtils.Tick = function(time, fn)
+	if not time then time = 0 end;
     PhantumUtils.Thread(function()
         while true do
             Wait(time)
