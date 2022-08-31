@@ -1,6 +1,7 @@
 local ScriptsTable = {
     ['phant_backups'] = 'https://raw.githubusercontent.com/helldev-industries/fivem-police-backups/main/phant_backups/pkg.json',
-    ['phant_holdup'] = 'https://raw.githubusercontent.com/helldev-industries/fivem-holdup/main/phant_holdup/pkg.json'
+    ['phant_holdup'] = 'https://raw.githubusercontent.com/helldev-industries/fivem-holdup/main/phant_holdup/pkg.json',
+	['phant_odbierz'] = 'https://raw.githubusercontent.com/helldev-industries/fivem-odbierz/main/phant_odbierz/pkg.json'
 }
 
 function RegisterPhantumResource(scriptName)
